@@ -1,0 +1,20 @@
+{
+  "name": "webpack-5-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LexSwed/webpack-5-issue.git",
+  "author": "Alexander Swed <lexswed@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.9.0"
+  },
+  "scripts": {
+    "start": "npx npm-run-all -p app1 app2",
+    "app1": "webpack serve --config app1/webpack.config.js",
+    "app2": "webpack serve --config app2/webpack.config.js"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
