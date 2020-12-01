@@ -1,1 +1,1 @@
-export default "export default of app 2"
+export default "export default of app2"
