@@ -8,7 +8,7 @@ module.exports = {
     filename: 'app2.js',
   },
   devServer: {
-    contentBase: 'dist',
+    static: 'dist',
     port: 3001,
   },
 }

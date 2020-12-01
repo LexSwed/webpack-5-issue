@@ -1,1 +1,1 @@
-export default "exported default of module"
+export default "export default of app 2"
